@@ -1,7 +1,7 @@
 {
   "name": "CMSFYAN",
   "description": "Customizable WhatsApp Bot",
-  "repository": "https://github.com/AbhishekSuresh2/ABHISHEK-SER",
+  "repository": "https://github.com/cmsfyan/Cmbot-SERcm",
   "logo": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjQvhQ9cuaAreJa3n3tyh72LMx8b-TGQxc5ifCl8F2UNAVvAieXvnOi1_i47BqcoDULiMNNXzh83DRGFoX51EgcN-dOO4UYtLUEoVMpPiho3x4SziCXWK_YQkOeX3vFxwhsJAM1maJpSFROGHfZUIodG2vRTsWwcICcG9T4D9v0dv_O2oJy20ipyzyS7pE/s320/IMG-20231027-WA0058.jpg",
   "keywords": ["bot", "whatsapp", "whatsapp-bot", "CMSFYAN", "wa-bot", "THIS IS TAGS I REMOVE SOME TAGS"],
   "buildpacks": [
