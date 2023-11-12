@@ -3,10 +3,10 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
    let name = m.pushName || conn.getName(m.sender);
   
   // Define the content
-  let mainImg = "https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png"; // Main image URL
-  let smallImg = "https://replicate.delivery/pbxt/QbP6Fh3ZXwKON9SCB70ERGwwgeeSbztwKIOIzhUeXFkwnFHiA/out.png"; // Small image URL
+  let mainImg = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_DiVmOS52btBHYCmau5mzoeptZg6KofvqPRIVTgWeWdbE2BG8U1ltYouIy1DW1pFz90So9MWfK1P8ZrYO2lnEDntTzHEAUG-5559F2f07-SiAberD3ZcctEXYdfCEuJj4Ht8SVVZxWMif6aGpIbri91LFOftUrAegN8DOE-QlGovK-xy6irxG60Vt-50/s1080/Propic1692854048190.jpg"; // Main image URL
+  let smallImg = "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg_DiVmOS52btBHYCmau5mzoeptZg6KofvqPRIVTgWeWdbE2BG8U1ltYouIy1DW1pFz90So9MWfK1P8ZrYO2lnEDntTzHEAUG-5559F2f07-SiAberD3ZcctEXYdfCEuJj4Ht8SVVZxWMif6aGpIbri91LFOftUrAegN8DOE-QlGovK-xy6irxG60Vt-50/s1080/Propic1692854048190.jpg"; // Small image URL
   let smallText = "I'M Alive Now"; // Small text
-  let mainText = "𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁"; // Main text
+  let mainText = "CM-SAFYAN "; // Main text
   let audioUrl = "https://raw.githubusercontent.com/AbhishekSuresh2/ABHISHEK-SER/main/src/mp3/Abhi.mp3"; // Audio URL
   // Construct the message
   let con = {
@@ -26,14 +26,14 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     mimetype: 'audio/mp4',
     ptt: true,
     waveform: [100, 0, 100, 0, 100, 0, 100],
-    fileName: "ABHISHEK-SER",
+    fileName: "CM-SAFYAN",
     contextInfo: {
       mentionedJid: [m.sender],
       externalAdReply: {
         title: smallText,
         body: mainText,
         thumbnailUrl: smallImg, // Small image
-        sourceUrl: 'https://github.com/AbhishekSuresh2/ABHISHEK-SER',
+        sourceUrl: 'https://chat.whatsapp.com/BEyJPD3Ey9lLu6xRwjJ3ig',
         mediaType: 1,
         renderLargerThumbnail: false,
         mediaUrl: mainImg // Main image
