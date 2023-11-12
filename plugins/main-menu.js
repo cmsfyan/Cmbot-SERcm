@@ -4,7 +4,7 @@ if (!(who in global.db.data.users)) throw `❌ The User Is Not Found In My Datab
 let pp = './Abhi.jpg'
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850) 
-let lkr = `╭───❮ *𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
+let lkr = `╭───❮ *CM-𝙱𝙾𝚃 𝙼𝙴𝙽𝚄* ❯
 │ _${usedPrefix}ping_
 │ _${usedPrefix}uptime_
 │ _${usedPrefix}enable_
@@ -266,9 +266,9 @@ ${readMore}
 │ _${usedPrefix}xnxxdl *link*_
 ╰────────────⦁
 
-╭───❮  *🎯𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺-𝚂𝙴𝚁* ❯
+╭───❮  *🎯CM-SAFYAN* ❯
 │      𝙲𝚁𝙴𝙰𝚃𝙴𝙳 𝙱𝚈
-│   𝙰𝙱𝙷𝙸𝚂𝙷𝙴𝙺 𝚂𝚄𝚁𝙴𝚂𝙷☘️
+│   CM-SAFYAN ☘️
 ╰────────────⦁`  
 conn.sendFile(m.chat, pp, 'perfil.jpg', lkr, m, false, { mentions: [who] })
 m.react('📃')
