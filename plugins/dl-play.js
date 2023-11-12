@@ -15,7 +15,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   let vid = search.videos[Math.floor(Math.random() * search.videos.length)];
   if (!search) throw 'Video Not Found, Try Another Title';
   let { title, thumbnail, timestamp, views, ago, url } = vid;
-  let wm = 'ABHISHEK-SER';
+  let wm = 'CM-SAFYAN';
 
   let captvid = `╭──── 〔 Y O U T U B E 〕 ─⬣
   ⬡ Title: ${title}
@@ -23,7 +23,7 @@ var handler = async (m, { conn, command, text, usedPrefix }) => {
   ⬡ Views: ${views}
   ⬡ Upload: ${ago}
   ⬡ Link: ${url}
-╰────────⬣`;
+╰────────⬣ JOIN GROUP FOR MORE DETAILS https://chat.whatsapp.com/BEyJPD3Ey9lLu6xRwjJ3ig`;
 
   conn.sendMessage(m.chat, { image: { url: thumbnail }, caption: captvid, footer: author }, { quoted: m });
 
