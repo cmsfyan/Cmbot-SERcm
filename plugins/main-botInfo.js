@@ -46,7 +46,7 @@ let pp = await conn.profilePictureUrl(who, 'image').catch(_ => './src/avatar_con
 let user = global.db.data.users[who]
   
 let infobt = `
-≡ *INFO BOT*
+≡ *INFO CM BOT*
   
 *STATE*
 ▢ *${groupsIn.length}* GROUP CHATS
@@ -56,15 +56,8 @@ let infobt = `
 ▢ *${chats.length}* Total Chats
 
 *≡ OWNER*
-  *ABHISHEK SURESH*
-▢ Instagram :
-  • https://instagram.com/abhishek_ser
-▢ GitHub :
-  • https://github.com/AbhishekSuresh2
-▢ Telegram : 
-  • https://t.me/Abhishek_Ser  
-▢ YouTube : 
-  • https://youtube.com/@comedymelodych8468
+  *CM SAFYAN*
+
 
  *≡ S E R V E R*
 *🛑 RAM:* ${format(totalmem() - freemem())} / ${format(totalmem())}
